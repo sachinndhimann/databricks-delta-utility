@@ -18,7 +18,7 @@ setup(
     prefix, and suffix. The package also auto-detects the Databricks workspace and current user.
     """,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/databricks-delta-utility",
+    url="https://github.com/sachinndhimann/databricks-delta-utility",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
