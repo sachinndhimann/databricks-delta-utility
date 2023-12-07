@@ -18,10 +18,10 @@ This Python package designed to simplify Delta table management on Databricks. I
 ## Installation
 
 ```bash
-pip install my-databricks-package
+pip install databricks-delta-utility
 
 #Usage
-from my_databricks.my_databricks.dbdelta_manager import DatabricksDeltaTableManager
+from databricks-delta-utility import DatabricksDeltaTableManager
 from pyspark.sql import SparkSession
 
 # Create a Spark session
@@ -35,6 +35,9 @@ manager.create_delta_table("example_table", suffix="v1", prefix="prod")
 manager.delete_delta_table("prod_example_table_v1")
 tables = manager.list_delta_tables()
 print(tables)
+
+
+Pypi Link: https://pypi.org/project/databricks-delta-utility/
 
 #Configuration
 The package uses a config.json file to store transactions and metadata. The file is stored in the specified mount path.
